@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sridevi T | Full Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="active">
+    <div class="home-content">
+      <p>Welcome, I am</p>
+      <h1>Sridevi T</h1>
+      <h2>Full Stack Developer</h2>
+      <p>I build dynamic and scalable web applications from front-end to back-end. My focus is on creating efficient, secure, and user-friendly digital experiences using modern technologies.</p>
+
+      <div class="home-buttons">
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+        <a href="resume.pdf" class="btn-outline" target="_blank">Resume</a>
+      </div>
+    </div>
+    <div class="home-image">
+      <img src="sweet.jpeg" alt="Photo"/>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a Full Stack Developer with experience in building end-to-end web applications. I specialize in front-end development using frameworks like React and back-end development with Node.js, Express, and databases like MongoDB and SQLite. My approach emphasizes clean code, scalability, and seamless user experiences. I enjoy turning complex problems into elegant solutions while staying up to date with emerging technologies and best practices in software development.</p>
+    <p>When I'm not coding, you can find me exploring new tech trends, developing independent projects, or sharing knowledge with the developer community.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Code Co-pilot</h3>
+      <p>Developed and deployed a fine-tuned <strong>Salesforce/codegen-350M-mono</strong> model using the <em>python-codes-25k</em> dataset for intelligent code completion.</p>
+      <div class="tech-stack">Python | Flask | LLM | Fine Tuning | LoRA | PEFT</div>
+      <p>
+        <a href="https://github.com/stme2015/copilot.git">GitHub Repository</a> |
+        <a href="https://drive.google.com/drive/folders/1zS_9MKWboOcc9nE2HY1jKZFeG_RU-Fks?usp=sharing">Demo Video</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills & Technologies</h2>
+    <div class="skills-grid">
+      <div>HTML5 / CSS3</div><div>JavaScript</div><div>React.js</div><div>Node.js</div>
+      <div>Express.js</div><div>MongoDB</div><div>SQLite</div><div>REST API / GraphQL</div>
+      <div>Git & GitHub</div><div>Docker</div><div>AWS</div><div>CI/CD (GitHub Actions)</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <div class="contact-container">
+        <!-- Left: contact info -->
+        <div class="contact-info">
+        <p>Email: xyz@gmail.com</p>
+        <p>LinkedIn: <a href="#">LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/stme2015">github.com/stme2015</a></p>
+        </div>
+
+        <div class="contact-form">
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required/>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required/>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" maxlength="250" required ></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sridevi T. All rights reserved.</p>
+  </footer>
+
+  <script src="navigate.js"></script>
+</body>
+</html>
